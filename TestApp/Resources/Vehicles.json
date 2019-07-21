@@ -1,0 +1,6 @@
+[
+{"Make":"Toyota", "Model":"Camry", "Year":2017, "LicencePlate":"ABC-123", "State":"NSW"},
+{"Make":"Mazda", "Model":"Mazda3", "Year":2015, "LicencePlate":"DEF-456", "State":"NSW"},
+{"Make":"Subaru", "Model":"Impreza", "Year":2018, "LicencePlate":"IJK-789", "State":"NSW"},
+{"Make":"Nisan", "Model":"Pulsar", "Year":2014, "LicencePlate":"LMN-946", "State":"NSW"},
+]

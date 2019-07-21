@@ -1,0 +1,18 @@
+<div style="text-align:center">
+  <h1>
+    {{ title }}
+  </h1>
+  <div>
+    <h2>List of Vehicle</h2>
+    <div>
+      <div style="margin:5px" *ngFor="let value of apiValues">
+        <div style="padding-right:10px; width:150px;display:inline-block">Make :         <span style="font-weight:bolder">{{value.make}}</span></div>
+        <div style="padding-right:10px;width:150px; display:inline-block">Model :        <span style="font-weight:bolder">{{value.model}}</span></div>
+        <div style="padding-right:10px;width:150px; display:inline-block">Year :         <span style="font-weight:bolder">{{value.year}}</span></div>
+        <div style="padding-right:10px;width:220px; display:inline-block">LicencePlate : <span style="font-weight:bolder">{{value.licencePlate}}</span></div>
+        <div style="padding-right:10px;width:150px; display:inline-block">State : <span style="font-weight:bolder">{{value.state}}</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
